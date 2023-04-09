@@ -5,4 +5,4 @@ Tata caranya:
 - inputkan angka pertama dahulu
 - lalu pilih operatornya (+, -, ×, /)
 - lalu inputkan juga angka kedua-nya
-- terakhir klik hitung, maka akan muncul hasilnya perhitungannya
+- terakhir klik hitung, maka akan muncul hasil dari perhitungannya
