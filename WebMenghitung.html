@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator Sederhana</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Kalkulator Sederhana</h1>
+	<label for="angka1">Angka Pertama:</label><br>
+	<input type="number" id="angka1"><br>
+
+	<label for="operator">Operator:</label><br>
+	<select id="operator">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+	</select><br>
+
+	<label for="angka2">Angka Kedua:</label><br>
+	<input type="number" id="angka2"><br>
+
+	<button onclick="hitung()">Hitung</button><br>
+
+	<label for="hasil">Hasil:</label><br>
+	<input type="text" id="hasil" disabled>
+
+	<script src="hitung.js"></script>
+</body>
+</html>
